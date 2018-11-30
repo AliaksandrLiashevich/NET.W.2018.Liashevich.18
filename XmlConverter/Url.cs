@@ -13,7 +13,7 @@ namespace ConvertSystem
     {
         /// <summary>
         /// Constructor initializes Url parts:
-        /// Host Name, Segments, Parameters(Key & Value)
+        /// Host Name, Segments, Parameters(Key and Value)
         /// </summary>
         /// <param name="_hostName"></param>
         /// <param name="_segments"></param>

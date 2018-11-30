@@ -124,7 +124,7 @@ namespace ConvertSystem
         /// Method extracts second part of Url address
         /// and writes to string variable
         /// </summary>
-        /// <param name="address">Array of Host&Segments&Parameters</param>
+        /// <param name="address">Array of (Host and Segments and Parameters)</param>
         private void Host(ref string[] address)
         {
             string[] array = address[0].Split('/');
@@ -153,7 +153,7 @@ namespace ConvertSystem
         /// Method analyzes segments of address 
         /// and adds to list of segment objects
         /// </summary>
-        /// <param name="address">Array of Segments&Parameters</param>
+        /// <param name="address">Array of (Segments and Parameters)</param>
         private void Segment(ref string[] address)
         {
             if (address == null)
@@ -190,7 +190,7 @@ namespace ConvertSystem
         /// Method extracts last segment and
         /// prepare parameters for analyzing
         /// </summary>
-        /// <param name="address">Array of Last Segment&Parameter</param>
+        /// <param name="address">Array of (Last Segment and Parameter)</param>
         /// <returns>Url address parameters</returns>
         private string[] LastSegment(string address)
         {
