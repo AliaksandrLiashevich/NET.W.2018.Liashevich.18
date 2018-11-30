@@ -5,5 +5,9 @@ https://github.com/AnzhelikaKravchuk?tab=repositories
 https://github.com/AnzhelikaKravchuk/2017-2018.MMF.BSU  
 https://habrahabr.ru/company/it-grad/blog/341486/   
 
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
 Для тех URL-адресов, которые не совпадают с данным паттерном, “залогировать” информацию, отметив указанные строки, как необработанные. 
 Продемонстрировать работу на примере консольного приложения.
